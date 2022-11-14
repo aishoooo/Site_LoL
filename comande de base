@@ -1,0 +1,138 @@
+balise la plus importante: <!DOCTYPE html>
+
+
+<titre> basique balise </titre>
+
+
+pour definir une page html : <html> page </html>
+pour mettre en en tete: <head> l entete </head>
+patit principale ou le code vas etre : <body> page </body>
+pour ecrire un titre : <titre> Ceci est un titre </titre>
+nom de la page <title>nom de la page </title>   <!-- se trouve dans l entete  -->
+pour dooner une citation : <citation> la citation </citation>
+retour a la ligne : <br />
+faire un lien vers une autre page : <a href=lien > commentaire qui s affiche </a>
+paragraphe: <p> paragrahe !</p>
+saut de ligne: un saut de ligne dans le code
+
+
+balise orphelin: servent le plus souvent à insérer un élément à un endroit précis 
+
+images: ( toujours dans une balise paragraphe ou figure)
+pour inserer une image: <image />
+pour choisir l image precisement: <img src="lien de l image ou la ou on la trouve dans l ordi " alt="dire son contenue" />
+pour ajouter une infobulle on ajoute a la fin (facultatif) : title="C'est beau les Alpes quand même !"
+site pour retailler une image : https://www.resizepixel.com/fr/resize-image/
+pour ajouter une miniature ou une maximure : <a href="img normale "><img src="img en mini.jpg" alt="contenue de l img" title="Cliquez pour agrandir" /></a>
+
+
+figures: ( tout ce qui enrichie le texte)
+inserer une figure : <figure> </figure> ( comme un paragraphe)
+on peut y ajouter une image comme plus haut.
+inserer une legende: <figcaption> la legende </figcaption>
+
+
+paragraphe: <p> paragrahe !</p>
+saut de ligne: un saut de ligne dans le code
+creéé un espace <nbsp>  </nbsp> 
+les attributs : attributs sont un peu les options des balises. Ils viennent les compléter pour donner des informations supplémentaires. L'attribut se place après le nom de la balise ouvrante et a le plus souvent une valeur
+type text --> 255 caractere max
+texte aréa --> infini
+<form> </form> : créé un formulaire
+
+pour inserer un attribut: <balise attribut="valeur">
+Exemple : <image nom="photo.jpg" />
+autre exmple : 
+<citation auteur="Neil Armstrong" date="21/07/1969">
+C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
+</citation>
+
+
+
+
+taille de texte 
+
+
+        <h1>Titre super important</h1>
+        <h2>Titre important</h2>
+        <h3>Titre un peu moins important (sous-titre)</h3>
+
+        <h4>Titre pas trop important</h4>
+        <h5>Titre pas important</h5>
+        <h6>Titre vraiment pas important du tout</h6>
+
+
+ mettre en valeur le texte :
+
+un peu en valeur: <em> </em> ou  <strong>  </strong>
+faire ressortir visuellement: <mark> </mark>
+
+
+liste :
+liste non ordonnée : <ul> </ul>
+liste ordonée : <ol> </ol>
+mettre des point/chiffre dans la liste : <li> </li>
+
+id ( permet de dire que la ligne passe avant tout )--> considerer comme le navigateur et passera toujours avant la class 
+
+lien: (modifier le href change beaucoup de chose)
+
+
+faire un lien vers une autre page : <a href=lien > commentaire qui s affiche </a>
+si les fichiers se trouventdans un sous dossier  :<a href="1er dossier /2e dossier /nom du fichier.html">
+si le fichier se trouve dans un sur dossier: <a href="../page2.html">
+activation d une balise pour reprer le mot: id mot 
+reperer la blise : #mot
+lien pour envoyer un mail : <p><a href="mailto:votrenom@bidule.com">Envoyez-moi un e-mail !</a></p>
+lien pour telechager un fichier zip: <p><a href="monfichier.zip">Télécharger le fichier</a></p>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+pour inserer du css dans un fichier html:
+on utilise : <p style = "color: blue;">
+
+pour selictionner un endroit precisement dans le language css on utilise des balises ou des attributs,on les notes ainsi:
+
+h1 ou p ou em .valeur de class /*balise*/                 ///
+{                                                        /// fait pour tout le texte 
+    color: blue; /* fonctions*/                         ///
+}                                                      ///
+ pour eviter la repetition de la fonction on utilise "," entre les balises car sans voudrai dire que la balise 2 se trouve dans la premiere 
+
+pour utiliser des attributs on va utiliser : < blaise class= "valeur de la classe" <balise/>
+
+
+        differente fonction css:
+
+        color : pour changer la couleur du texte      
+        front-size:| 16px : pour changer la taille du texte en pixel
+                   | 1 em : taille normale 
+                   |xx-small 
+                   |x-small 
+                   |small 
+                   |medium 
+                   |large 
+                   |x-large
+                   |xx-large
+        font-family: police1, police 2 ect  ///
+        sans-serif: Arial ;                 ///
+                    Arial Black ;           ///
+                    Comic Sans MS ;         ///      la police 
+                    Courier New ;           ///
+                    Georgia ;               ///
+                    Impact ;                ///
+                    Times New Roman ;       ///
+                    Trebuchet MS ;          ///
+                    Verdana.                ///
+
+        font-style: italic  : le texte sera mis en italique ;
+                    oblique  : le texte sera passé en oblique (les lettres sont penchées, le résultat est légèrement différent de l'italique proprement dit) ;
+                    normal  : le texte sera normal (par défaut). Cela vous permet d'annuler une mise en italique.
+
+        font-weight : bold  : le texte sera en gras ;
+                     normal  : le texte sera écrit normalement (par défaut).               
+
+        text-decoration :  underline  : souligné ;
+                           line-through  : barré ;
+                           overline  : ligne au-dessus ;
+                           none  : normal (par défaut).           
