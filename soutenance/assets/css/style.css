@@ -1,0 +1,257 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&family=EB+Garamond:wght@300,400,700&display=swap");
+
+body {
+  background-image: url("/assets/image/bg.png");
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+
+}
+
+.serial_pro{
+    font-family: 'Source+Serif+Pro',serif;
+}
+.navbar-expand-lg {
+  height: 100px;
+  font-family: 'Source+Serif+Pro',serif ;
+  font-size: 20px;
+  box-shadow: 1px 1px 1px 3px rgb(114, 88, 23);
+  
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    border-bottom: 1px solid transparent!important;
+    transition: padding bottom 0.5s ease-in-out, border-colo 0.3s ease!important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    padding-bottom: 0.30px!important;
+    border-bottom-color: rgb(77, 51, 3)!important;   
+}
+
+.bg-img {
+    background-image: url("https://lolgraindesel.files.wordpress.com/2013/03/banniere2.png");
+    background-position: center;
+    background-size: cover;
+
+
+}
+.footer-clean{
+  background: #000;
+  position:absolute;
+}
+.nav-item{
+padding: 30px;
+
+}
+.btn-order {
+color: rgb(255, 255, 255);
+border-color: rgb(218, 165, 32);
+transition: 0.5;
+}
+
+.btn-order:hover,
+.btn-order:active{
+    color: rgb(218, 165, 32);
+    background-color: (255,255,255);
+}
+
+.text-uppercase {
+    text-decoration: none !important;
+}
+
+.lol {
+    color: white;
+    font-family: 'Source+Serif+Pro',serif ;
+    font-size: 32px;
+    padding-left: 35px;
+}
+
+.me-auto {
+    padding: 130px;
+}
+
+
+
+
+.buttond {
+    position: absolute;
+    padding-top: 10%;
+    left: 46%;
+}
+
+.vid {
+  position: absolute;
+  top: 350px;
+  left: 25%;
+
+ 
+  
+}
+
+
+
+/* CSS */
+.button-56 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+footer {
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  z-index: 2;
+  
+}
+
+.footer-clean {
+  padding:50px 0;
+  background-color:rgb(255, 255, 255);
+  color:#4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid rgb(211, 11, 11);
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
